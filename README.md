@@ -10,6 +10,7 @@
 - kenoldp <kenold@wavetech-solutions.com>
 
 ##Change Log
+- Added boootsrap-sass      -- 11/17/2015 -- v0.0.1 -- added bootstrap-sass framework
 - Added index.html file     -- 11/17/2015 -- v0.0.1 -- added index.html file boilerplate to src directory
 - Added script.js file      -- 11/17/2015 -- v0.0.1 -- added script.js file to js directory
 - Added js directory        -- 11/17/2015 -- v0.0.1 -- added js directory to src root directory
