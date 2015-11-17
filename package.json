@@ -1,0 +1,22 @@
+{
+  "name": "mean-project-2",
+  "version": "0.0.1",
+  "description": "Mean Project 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githubt.com/anthonyturrigiano/mean-project-2.git"
+  },
+  "author": "Anthony Turrigiano<anthony.turrigiano@gmail.com>, Alex Cohen<iamalexcohen@gmail.com>, John Wu<jwu5095@gmail.com>, Kunal Saddi<kunalsaddi@gmail.com>, Kenoldp<kenold@wavetech-solutions.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.5",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uncss": "^1.0.4"
+  },
+  "dependencies": {}
+}
