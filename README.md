@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #MEAN Project 2
 
 ##Contributers
@@ -30,3 +31,6 @@
 ##Instructions
 
 Run command gulp watch in the terminal 
+=======
+# mean-project-2
+>>>>>>> 8ac63bf0195c37d6b87efd3e702bc0c6afc6a525
