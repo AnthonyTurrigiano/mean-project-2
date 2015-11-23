@@ -10,6 +10,10 @@
 - kenoldp <kenold@wavetech-solutions.com>
 
 ##Change Log
+- Updated Gulp              -- 11/23/2015 -- v0.0.2 -- added gulp-jade and run-sequence
+- Installed run-sequence    -- 11/23/2015 -- v0.0.2 -- installed run-sequence to run gulp tasks in sequence
+- Created jade Folder       -- 11/23/2015 -- v0.0.2 -- added Jade folder to root directory
+- Installed Jade            -- 11/23/2015 -- v0.0.2 -- added jade template engine
 - Added index.html file     -- 11/17/2015 -- v0.0.1 -- added index.html file boilerplate to src directory
 - Added script.js file      -- 11/17/2015 -- v0.0.1 -- added script.js file to js directory
 - Added js directory        -- 11/17/2015 -- v0.0.1 -- added js directory to src root directory
@@ -31,5 +35,9 @@
 ##Instructions
 
 Run command gulp watch in the terminal 
+
+##Errors
+If you received the below error when updating a sass file while gulp watch is running then type LC_ALL=C into the terminal and run gulp watch again
+Error: Fontconfig warning: ignoring C.UTF-8: not a valid language tag
 
 

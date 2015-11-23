@@ -1,9 +1,11 @@
 'use strict';
 
 //Dependency Variables
-var gulp    = require('gulp'),
-    uncss   = require( 'gulp-uncss'),
-    sass    = require('gulp-sass');
+var gulp        = require('gulp'),
+    uncss       = require( 'gulp-uncss'),
+    sass        = require('gulp-sass'),
+    jade        = require('gulp-jade'),
+    runSequence = require('run-sequence');
 
 //Folder Directory Config Variable
 var config ={
@@ -17,6 +19,9 @@ var config ={
     },
     "sass":{
         "root":"./sass",
+    },
+    "jade":{
+        "root":"./jade",
     }
 } 
 
@@ -38,8 +43,18 @@ gulp.task('styles', ['sass'], function (){
             .pipe(gulp.dest(config.src.css));
     });
 
+//Process Jade Templates
+gulp.task('jade:src', function () {
+  return gulp.src( config.jade.root + '/index.jade' )
+    .pipe(jade({
+      pretty: true
+    }))
+    .pipe(gulp.dest( config.src.root ));
+})
+
 
 //Gulp Watch Task
 gulp.task('watch', function () {
-  return gulp.watch(config.sass.root + '/**/*.scss', ['styles']);
+   gulp.watch(config.sass.root + '/**/*.scss', ['styles']);
+   gulp.watch(config.jade.root + '/index.jade', ['jade:src']);
 });

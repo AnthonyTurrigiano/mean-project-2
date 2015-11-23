@@ -71,6 +71,95 @@ body {
   background-color: #fff;
 }
 
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+.container-fluid:after {
+  clear: both;
+}
+
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-xs-3,
+.col-xs-8 {
+  float: left;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-8 {
+  width: 66.66667%;
+}
+
+@media (min-width: 768px) {
+  .col-sm-3,
+  .col-sm-8 {
+    float: left;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-3,
+  .col-md-8 {
+    float: left;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-8 {
+    width: 66.66667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-3,
+  .col-lg-8 {
+    float: left;
+  }
+
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+}
+
 .form-control::-moz-placeholder {
   color: #999;
   opacity: 1;
