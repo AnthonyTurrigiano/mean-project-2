@@ -10,6 +10,7 @@
 - kenoldp <kenold@wavetech-solutions.com>
 
 ##Change Log
+- Added boootsrap-sass      -- 11/17/2015 -- v0.0.1 -- added bootstrap-sass framework
 - Updated Gulp              -- 11/23/2015 -- v0.0.2 -- added gulp-jade and run-sequence
 - Installed run-sequence    -- 11/23/2015 -- v0.0.2 -- installed run-sequence to run gulp tasks in sequence
 - Created jade Folder       -- 11/23/2015 -- v0.0.2 -- added Jade folder to root directory
