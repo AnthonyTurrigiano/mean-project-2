@@ -12,13 +12,8 @@
   },
   "author": "Anthony Turrigiano<anthony.turrigiano@gmail.com>, Alex Cohen<iamalexcohen@gmail.com>, John Wu<jwu5095@gmail.com>, Kunal Saddi<kunalsaddi@gmail.com>, Kenoldp<kenold@wavetech-solutions.com>",
   "license": "ISC",
-  "devDependencies": {
-    "bootstrap-sass": "^3.3.5",
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.1.0",
-    "gulp-uncss": "^1.0.4",
-    "run-sequence": "^1.1.5"
-  },
-  "dependencies": {}
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
 }
